@@ -86,15 +86,51 @@ main .container {
     background: #555;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
 }
 
-footer .container {
-    width: 80%;
-    margin: 0 auto;
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
+
+.footer-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.footer-content p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
 
