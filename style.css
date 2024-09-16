@@ -137,3 +137,15 @@ body, ul {
     position: center;
     display: flex;
 }
+.topnav {
+    background-color: red;
+    overflow: hidden; 
+    display: flex;
+    gap: 15px;
+  }
+
+  #logo{
+    color: green;
+    
+
+  }
