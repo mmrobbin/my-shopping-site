@@ -133,4 +133,7 @@ body, ul {
     font-size: 0.9em;
 }
 
-
+.about{
+    position: center;
+    display: flex;
+}
